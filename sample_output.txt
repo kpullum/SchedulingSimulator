@@ -1,0 +1,144 @@
+Opening input file...
+Reading file contents...
+Process data loaded!
+
+Please choose a scheduling algorithm to test:
+First Come First Serve: 1
+Shortest Job First: 2
+Pre-emptive Priority Scheduling: 3
+Round Robin: 4
+Exit program: 5
+Selection number: 1
+
+---------- First Come First Serve (FCFS) ----------
+
+Process 1 starts at CPU time 0
+Progress left for Process 1 at time 0 is: 3
+Progress left for Process 1 at time 1 is: 2
+Progress left for Process 1 at time 2 is: 1
+Process 1 ends at CPU time 3
+Process 2 starts at CPU time 3
+Progress left for Process 2 at time 3 is: 6
+Progress left for Process 2 at time 4 is: 5
+Progress left for Process 2 at time 5 is: 4
+Progress left for Process 2 at time 6 is: 3
+Progress left for Process 2 at time 7 is: 2
+Progress left for Process 2 at time 8 is: 1
+Process 2 ends at CPU time 9
+Process 4 starts at CPU time 9
+Progress left for Process 4 at time 9 is: 1
+Process 4 ends at CPU time 10
+Process 3 starts at CPU time 10
+Progress left for Process 3 at time 10 is: 10
+Progress left for Process 3 at time 11 is: 9
+Progress left for Process 3 at time 12 is: 8
+Progress left for Process 3 at time 13 is: 7
+Progress left for Process 3 at time 14 is: 6
+Progress left for Process 3 at time 15 is: 5
+Progress left for Process 3 at time 16 is: 4
+Progress left for Process 3 at time 17 is: 3
+Progress left for Process 3 at time 18 is: 2
+Progress left for Process 3 at time 19 is: 1
+Process 3 ends at CPU time 20
+Process 7 starts at CPU time 20
+Progress left for Process 7 at time 20 is: 7
+Progress left for Process 7 at time 21 is: 6
+Progress left for Process 7 at time 22 is: 5
+Progress left for Process 7 at time 23 is: 4
+Progress left for Process 7 at time 24 is: 3
+Progress left for Process 7 at time 25 is: 2
+Progress left for Process 7 at time 26 is: 1
+Process 7 ends at CPU time 27
+Process 5 starts at CPU time 27
+Progress left for Process 5 at time 27 is: 5
+Progress left for Process 5 at time 28 is: 4
+Progress left for Process 5 at time 29 is: 3
+Progress left for Process 5 at time 30 is: 2
+Progress left for Process 5 at time 31 is: 1
+Process 5 ends at CPU time 32
+Process 6 starts at CPU time 32
+Progress left for Process 6 at time 32 is: 2
+Progress left for Process 6 at time 33 is: 1
+Process 6 ends at CPU time 34
+All processes done at time: 34
+
+---------- STATISTICS AND RESULTS ----------
+
+Process 1
+        Burst time: 3
+        Priority: 2
+        Arrival time: 0
+        Begin time: 0
+        End time: 3
+        Waiting time: 0
+        Response time: 0
+        Turnaround time: 3
+
+Process 2
+        Burst time: 6
+        Priority: 1
+        Arrival time: 2
+        Begin time: 3
+        End time: 9
+        Waiting time: 1
+        Response time: 1
+        Turnaround time: 7
+
+Process 3
+        Burst time: 10
+        Priority: 4
+        Arrival time: 7
+        Begin time: 10
+        End time: 20
+        Waiting time: 3
+        Response time: 3
+        Turnaround time: 13
+
+Process 4
+        Burst time: 1
+        Priority: 2
+        Arrival time: 3
+        Begin time: 9
+        End time: 10
+        Waiting time: 6
+        Response time: 6
+        Turnaround time: 7
+
+Process 5
+        Burst time: 5
+        Priority: 3
+        Arrival time: 15
+        Begin time: 27
+        End time: 32
+        Waiting time: 12
+        Response time: 12
+        Turnaround time: 17
+
+Process 6
+        Burst time: 2
+        Priority: 5
+        Arrival time: 25
+        Begin time: 32
+        End time: 34
+        Waiting time: 7
+        Response time: 7
+        Turnaround time: 9
+
+Process 7
+        Burst time: 7
+        Priority: 3
+        Arrival time: 8
+        Begin time: 20
+        End time: 27
+        Waiting time: 12
+        Response time: 12
+        Turnaround time: 19
+
+Average waiting time: 5.85714
+Average response time: 5.85714
+Average turnaround time: 10.7143
+CPU utilization rate: 100%
+
+-----------------------------
+
+Done!
